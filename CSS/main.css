@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainbody {
+    background: linear-gradient(135deg, rgba(0,255,150,1) 0%, rgba(0,0,111,1) 100%);
+}
+
+.box {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+
+
+#profile {
+    height: 100%;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 40px;
+}
+
+#profile_title {
+    font-size: 120px;
+    color: black;
+    font-weight: 600;
+}
+
+#tool {
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.274); */
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    /* width: 33%; */
+}
+
+#tool_title {
+    font-size: 120px;
+}
+
+.tool_logo {
+    object-fit: cover;
+    width: 70%;
+    align-self: center;
+}
+#vscode{
+    width: 50% !important;
+}
+#tool_container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    height: 80%;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.192);
+    align-items: center;
+}
+#tool_desc {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.logo_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    height: fit-content;
+    align-items: center;
+}
+
+.logo_container img {
+    margin: auto
+}
+#frontpage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header_txt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+#header {
+    padding-top: 30vh;
+    position: fixed;
+    top: 0;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+    text-align: center;
+}
+
+
+.frontpage-desc {
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 20px;
+}
+
+button{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#section_container {
+    flex: 3;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    padding-left: 50px;
+    height: 100%;
+    grid-gap: 5%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.2s ease-in-out;
+    border-radius: 15px;
+    align-self: center;
+    height: 80%;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.3);
+    
+}
+#profile-khoa {
+    background-color: rgb(199, 175, 141)
+}
+#profile_ha {
+    background-color: rgb(220, 219, 189)
+}
+.profile_img {
+    align-self: center;
+    width: 100%; 
+    height:100%; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+#profile_img_khoa {
+    align-self: center;
+    height: 100%;
+    width: 70%; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+#profile_img_ha {
+    align-self: center;
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+.section_desc {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 20px;
+}
+.section figure {
+    opacity: 0;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    color: transparent;
+    width: 25.75%;
+    height: 32.5%;
+    border-radius: 15px;
+    align-content: center;
+}
+
+.section img{
+    transition: 0.5s ease-in-out;
+}
+
+.section:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+.section:hover figure {
+    opacity: 1;
+    color: black;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.section:hover img {
+    opacity: 0.2;
+}
