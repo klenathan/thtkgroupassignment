@@ -20,14 +20,25 @@ h {
 .profile_summary {
     display: flex;
     flex: 1;
-    flex-direction: row;
+    flex-direction: column;
     background-color: rgba(255,255,255,0.4);
-    align-self: center;
     border-radius: 15px;
-    height: 30vh;
+    /* height: 30vh; */
     margin: 10px;
     padding: 10px;
     align-self: flex-start;
+    justify-content: center;
+    align-items:center
+}
+
+.profile_summary img{
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
 }
 
 .personality_summary {
@@ -125,6 +136,7 @@ h {
 
 #profile_text{
     display: flex;
+    width: 100%;
     flex-direction: column;
     font-weight: bold;
     font-family: sans-serif;

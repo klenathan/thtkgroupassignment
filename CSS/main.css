@@ -14,7 +14,7 @@ body {
 }
 
 .mainbody {
-    background: linear-gradient(135deg, rgba(0,255,150,1) 0%, rgba(0,0,111,1) 100%);
+    background: linear-gradient(135deg, rgba(0,255,150,1) 0%, rgb(1, 102, 197) 100%);
 }
 
 .box {
@@ -58,7 +58,8 @@ body {
 
 #tool_title {
     font-size: 120px;
-    color: black
+    color: black;
+    font-weight: 600;
 }
 
 .tool_logo {
@@ -77,16 +78,16 @@ body {
     margin-right: 50px;
     height: inherit;
     border-radius: 30px;
-    background: rgb(49,192,160);
-    background: linear-gradient(135deg, rgba(49,192,160,1) 0%, rgba(49,142,152,1) 100%);
+    background: rgb(0, 211, 159);
+    background: linear-gradient(135deg, rgba(0, 211, 159,1) 0%, rgba(1, 170, 175,1) 100%);
     align-self: center;
-    /* box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3) */
+    box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.3)
 }
 #tool_desc {
 
     font-size: 20px;
     margin: 40px;
-    color: black
+    color: black;
 }
 .logo_container {
     display: grid;
@@ -107,23 +108,25 @@ body {
 }
 
 #header_txt {
+    position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-weight: bold;
     font-size: 80px;
-    text-align: center;
     cursor: pointer;
     width: 100%;
     transition: 0.5s ease-in-out;
+    left: 50%;
+    transform: translate(-291px, 0);
 }
 
 #header {
+    background-color: transparent;
     padding-top: 20vh;
     position: fixed;
     top: 0;
     transition: 0.5s ease-in-out;
     width: 100%;
-    text-align: center;
 }
 
 
