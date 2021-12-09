@@ -8,7 +8,7 @@ function scrollFunction() {
 
   } else {
     document.getElementById("header_txt").style.fontSize = "80px";
-    document.getElementById("header").style.paddingTop = "30vh";
+    document.getElementById("header").style.paddingTop = "20vh";
     document.getElementById("header").style.backgroundColor = "transparent";
   }
 }

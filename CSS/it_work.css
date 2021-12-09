@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
+    margin: 5vh 0 5vh 0;
 }
 
 #it_work_title {
+    margin-top: 5vh;
     font-size: 120px;
     color: white;
     font-weight: 600;
