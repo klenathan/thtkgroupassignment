@@ -27,7 +27,33 @@ body {
 }
 
 
+.scrolldown {
+    position: relative;
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    border-left: transparent;
+    border-top: transparent;
+    animation: scroll 3s ease-in-out infinite;
+}
 
+@keyframes scroll {
+    0% {
+        top: 0%;
+        opacity: 0
+    }
+    30% {
+        opacity: 1
+    }
+    70% {
+        opacity: 1
+    }
+    100% {
+        top: 100px;
+        opacity: 0
+    }
+}
 #profile {
     height: 100%;
     display: flex;
@@ -60,7 +86,14 @@ body {
     font-size: 120px;
     color: black;
     font-weight: 600;
-    margin-right: 30px
+    margin-left: 30px
+}
+
+#job_title {
+    font-size: 60px;
+    color: black;
+    font-weight: 600;
+    margin-left: 30px
 }
 
 .tool_logo {
@@ -85,11 +118,27 @@ body {
     align-self: center;
     box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.3)
 }
+
+#job_container {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+    height: inherit;
+    border-radius: 30px;
+    /* background: rgb(0, 211, 159);
+    background: linear-gradient(135deg, rgba(0, 211, 159,1) 0%, rgba(1, 170, 175,1) 100%);*/
+    background-color: rgba(255,255,255);
+    align-self: center;
+    box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.3)
+}
 #tool_desc {
 
-    font-size: 20px;
+    font-size: 25px;
     margin: 40px;
     color: black;
+    line-height: 1.5
 }
 .logo_container {
     display: grid;
@@ -123,6 +172,7 @@ body {
 }
 
 #header {
+    z-index: 1;
     background-color: transparent;
     padding-top: 20vh;
     position: fixed;
