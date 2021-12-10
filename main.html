@@ -19,9 +19,17 @@
     <div class='box frontpage' id="frontpage">
         <h1 id="header">
             <p id="header_txt">THTK GROUP</p>
+            <ul id="menu">
+                <li onclick="scrolltotop()"> Home </li>
+                <li onclick="scrolltodiv('teamprofile')"> Team Profile </li>
+                <li onclick="scrolltodiv('tooldiv')">Tools </li>
+                <li onclick="scrolltodiv('itworkdiv')">IT Works </li>
+                <li onclick="scrolltodiv('ittechdiv')">IT Technology </li>
+                <li onclick="scrolltodiv('projectdiv')"> Project Idea </li>
+            </ul>
         </h1>
         <p class="frontpage-desc">
-            Nam Thai Tran
+            Tran Nam Thai
         </p>
         <p class="frontpage-desc">
             Bui Viet ha
@@ -46,9 +54,10 @@
     width:95%;
     align-self: center;
     border-radius: 30px;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3)">
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3)"
+    id="teamprofile">
         <div id='profile'>
-            <p id="profile_title"> TEAM PROFILE </p>
+            <p id="profile_title" style="color: black !important; text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);"> TEAM PROFILE </p>
         </div>
         <div id="section_container">
 
@@ -105,8 +114,8 @@
     width:95%;
     align-self: center;
     border-radius: 30px;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3)
-    ">
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3)"
+    >
 
         <div id='tool'>
             <p id="job_title"> Ideal Jobs<br>Comparasion </p>
@@ -132,8 +141,8 @@
     width:95%;
     align-self: center;
     border-radius: 30px;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3)
-    ">
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3)"
+    id="tooldiv">
 
         <div id="tool_container">
             <p id="tool_desc"> Ai do viet phan nay dc khum, chem gi` dzo cung~ dc</p>
@@ -153,7 +162,7 @@
 
     </div>
 
-    <div class='it-work-box'>
+    <div class='it-work-box' id="itworkdiv">
         <div class='it-work'>
             <p id="it_work_title"> IT WORK </p>
         </div>
@@ -167,9 +176,9 @@
 
     </div>
 
-    <div class='it-technology-box'>
+    <div class='it-technology-box' id="ittechdiv">
         <div class='it-technology'>
-            <p id="profile_title"> IT TECHNOLOGY </p>
+            <p id="it_technology_title"> IT TECHNOLOGY </p>
         </div>
         <div class="ittechnology-container">
             <a class="ittechnology-content" href="technologies/autonomousvehicles.html"">
@@ -208,13 +217,45 @@
         </div>
     </div>
 
-    <div class='it-technology-box'>
+    <div class='project-box' id="projectdiv">
         <div class='it-technology'>
             <p id="profile_title"> Project </p>
         </div>
-        <div class="ittechnology-container">
-            <h> Tang Minh Tri's Project</h>
+        <div class="project-container">
+            <div>
+                hello
+            </div>
+            <div>
+                <p>
+                    Our group has decided on Tri's peoject idea bla bla bla .... 
+                </p>
+            </div>
         </div>
+    </div>
+
+    <div class='footer'>
+        <p style="margin-top: 10px"> The website is done by:</p>
+        <div class="name_container">
+            <p class="footer_desc">
+                Tran Nam Thai
+            </p>
+            <p class="footer_desc">
+                Bui Viet ha
+            </p>
+            <p class="footer_desc">
+                Tang Minh Tri
+            </p>
+            <p class="footer_desc">
+                Nguyen Vo Dang Khoa
+            </p>
+        </div>
+        <p style="margin-top: 10px"> The website is powered by: 
+            <img style="height: 30px; filter: invert(100%); position: relative; top: 7px"
+            src="assets/GitHub_Logo.png">
+        </p>
+        <img style="height: 50px; filter: brightness(0) invert(100%); margin-top: 15px;"
+            src="assets/school_icon.png">
+        
     </div>
 
 </body>

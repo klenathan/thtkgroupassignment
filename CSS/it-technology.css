@@ -6,6 +6,13 @@
     margin: 5vh 0 5vh 0;
 }
 
+.project-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 0 5vh 0;
+}
+
 .it-technology {
     flex: 1
 }
@@ -20,6 +27,23 @@
     text-align: center;
     grid-column-gap: 6%;
     grid-row-gap: 5%
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2% 2% 0% 2%;
+    text-align: flex-start;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    border-radius: 30px;
+}
+
+.project-container p {
+    color: black;
+    margin-bottom: 20px;
+    line-height: 1.5
 }
 
 
@@ -42,8 +66,18 @@
     opacity: 1;
 }
 
-.ittechnology-content:hover p{
+.ittechnology-content:hover p1{
     opacity: 0;
+}
+.ittechnology-content:hover p2{
+    opacity: 0;
+}
+
+.ittechnology-content p2{
+    transition: 0.3s ease-in-out;
+}
+.ittechnology-content p1{
+    transition: 0.3s ease-in-out;
 }
 
 

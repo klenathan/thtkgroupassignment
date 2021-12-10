@@ -2,7 +2,8 @@
 .mainbody {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(135deg, rgba(0,255,150,1) 0%, rgba(0,0,111,1) 100%);
+    /* background: linear-gradient(135deg, rgba(0,255,150,1) 0%, rgba(0,0,111,1) 100%); bright mode */
+    background: linear-gradient(135deg, rgba(76,1,154,1) 0%, rgba(30,0,70,1) 100%);
 }
 
 h {
@@ -10,6 +11,7 @@ h {
     align-self: center;
     font-family: sans-serif;
     color: white;
+    font-weight: bold;
 }
 
 .content {
@@ -92,7 +94,7 @@ h {
     width: 100px;
     align-self: center;
     margin-left: 20px;
-    color: black;
+    color: white;
     font-family: sans-serif;
     font-weight: 600;
 
@@ -102,7 +104,7 @@ h {
     width: 200px;
     align-self: center;
     margin-left: 10px;
-    color: black;
+    color: white;
     font-family: sans-serif;
     font-weight: 600;
 }
@@ -116,8 +118,8 @@ h {
 
 .bar {
     --progress: 0%;
-    background: rgb(39,0,111);
-    background: linear-gradient(135deg, rgba(39,0,111,1) 0%, rgba(0,97,60,1) 100%);
+    /* background: linear-gradient(135deg, rgba(39,0,111,1) 0%, rgba(0,97,60,1) 100%); bright mode */
+    background: linear-gradient(90deg, rgba(36,0,74,1) 0%, rgb(194, 0, 149) 100%);
     width: var(--progress);
     height: 40px;
     border-radius: 15px;
@@ -142,6 +144,11 @@ h {
     font-weight: bold;
     font-family: sans-serif;
     margin-left: 20px;
+    color: white
+}
+
+h1 {
+    color: white
 }
 
 .content_section {

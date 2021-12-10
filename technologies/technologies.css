@@ -2,7 +2,8 @@
 .mainbody {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(135deg, rgba(0,255,150,1) 0%, rgba(0,0,111,1) 100%);
+    /* background: linear-gradient(135deg, rgba(0,255,150,1) 0%, rgba(0,0,111,1) 100%); bright mode*/
+    background: linear-gradient(135deg, rgba(76,1,154,1) 0%, rgba(30,0,70,1) 100%);
 }
 
 .header {
@@ -59,6 +60,9 @@
     padding: 40px;
     box-shadow: 20px 20px 20px rgba(0,0,0,0.3);
     font-family: sans-serif;
+    color: rgb(31, 31, 31);
+    
+    text-indent: 50px
 }
 
 .quote {
