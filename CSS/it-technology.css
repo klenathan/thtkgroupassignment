@@ -1,3 +1,25 @@
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(61, 61, 61);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(120,0,246,1) 0%, rgba(255,0,193,1) 100%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgb(150, 52, 255) 0%, rgb(255, 67, 208) 100%);
+}
+
+
 .it-technology-box {
     display: flex;
     flex-direction: column;
