@@ -163,6 +163,7 @@ body {
     box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.3)
 }
 #tool_desc {
+    background-color:rgba(255, 0, 0, 0);
     overflow-y: auto;
     font-size: 25px;
     margin: 40px;
@@ -181,6 +182,28 @@ body {
     border-radius: 15px;
     background: rgb(61, 61, 61);
 }
+
+#job_desc {
+    overflow-y: auto;
+    font-size: 25px;
+    margin: 40px;
+    color: black;
+    line-height: 1.5;
+}
+#job_desc::-webkit-scrollbar{
+    width: 10px
+}
+#job_desc::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(120,0,246,1) 0%, rgba(255,0,193,1) 100%);
+}
+
+#job_desc::-webkit-scrollbar-track {
+    border-radius: 15px;
+    background: rgb(61, 61, 61);
+}
+
+
 .logo_container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto ;
