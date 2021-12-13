@@ -1,0 +1,62 @@
+Date : 2021-12-13 12:14:17
+Directory : f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web
+Total : 26 files,  2198 codes, 65 comments, 423 blanks, all 2686 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| HTML       |         17 |      1,296 |          9 |        269 |      1,574 |
+| CSS        |          5 |        831 |         27 |        129 |        987 |
+| YAML       |          1 |         31 |         29 |         11 |         71 |
+| JavaScript |          1 |         23 |          0 |          6 |         29 |
+| Markdown   |          2 |         17 |          0 |          8 |         25 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                           | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                              |         26 |      2,198 |         65 |        423 |      2,686 |
+| .github                                                                                                        |          1 |         31 |         29 |         11 |         71 |
+| .github\workflows                                                                                              |          1 |         31 |         29 |         11 |         71 |
+| CSS                                                                                                            |          4 |        686 |         23 |        101 |        810 |
+| Components                                                                                                     |          1 |         12 |          0 |          4 |         16 |
+| Script                                                                                                         |          1 |         23 |          0 |          6 |         29 |
+| itwork                                                                                                         |          5 |        384 |          0 |         87 |        471 |
+| profiles                                                                                                       |          4 |        317 |          0 |         79 |        396 |
+| technologies                                                                                                   |          5 |        364 |         13 |         72 |        449 |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                       | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\.github\workflows\codeql-analysis.yml | YAML       |         31 |         29 |         11 |         71 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\CSS\it-technology.css                 | CSS        |        103 |          3 |         18 |        124 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\CSS\it_work.css                       | CSS        |         59 |          3 |         12 |         74 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\CSS\main.css                          | CSS        |        365 |         11 |         46 |        422 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\CSS\profile.css                       | CSS        |        159 |          6 |         25 |        190 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\Components\profile.html               | HTML       |         12 |          0 |          4 |         16 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\README.md                             | Markdown   |          2 |          0 |          1 |          3 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\SECURITY.md                           | Markdown   |         15 |          0 |          7 |         22 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\Script\main.js                        | JavaScript |         23 |          0 |          6 |         29 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\index.html                            | HTML       |         12 |          0 |          1 |         13 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\cybersecurity.html             | HTML       |         67 |          0 |         19 |         86 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\dataanalyst.html               | HTML       |         88 |          0 |         20 |        108 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\gamedeveloper.html             | HTML       |         90 |          0 |         21 |        111 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\generalitworker.html           | HTML       |         71 |          0 |         12 |         83 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\softwareengineer.html          | HTML       |         68 |          0 |         15 |         83 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\main.html                             | HTML       |        235 |          0 |         41 |        276 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\profiles\buivietha.html               | HTML       |         96 |          0 |         26 |        122 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\profiles\nguyenvodangkhoa.html        | HTML       |         62 |          0 |         16 |         78 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\profiles\tangminhtri.html             | HTML       |         61 |          0 |         12 |         73 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\profiles\trannamthai.html             | HTML       |         98 |          0 |         25 |        123 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\projectidea.html                      | HTML       |        117 |          0 |         13 |        130 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\ai.html                  | HTML       |         43 |          3 |         10 |         56 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\autonomousvehicles.html  | HTML       |         72 |          0 |         15 |         87 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\cloudcomputing.html      | HTML       |         52 |          3 |          8 |         63 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\technologies.css         | CSS        |        145 |          4 |         28 |        177 |
+| f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\vr.html                  | HTML       |         52 |          3 |         11 |         66 |
+| Total                                                                                                          |            |      2,198 |         65 |        423 |      2,686 |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
