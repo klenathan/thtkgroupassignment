@@ -51,22 +51,6 @@
     grid-row-gap: 5%
 }
 
-.project-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 2% 2% 0% 2%;
-    text-align: flex-start;
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 90%;
-    border-radius: 30px;
-}
-
-.project-container p {
-    color: black;
-    margin-bottom: 20px;
-    line-height: 1.5
-}
 
 
 .ittechnology-content {

@@ -431,3 +431,62 @@ a {
     justify-content: center;
     margin-left: 30px;
 }
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 2% 2% 2%;
+    text-align: flex-start;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    border-radius: 30px;
+}
+
+.project-container p {
+    color: black;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.one {
+    flex: 1
+}
+
+.project_summary {
+    flex: 1;
+    overflow-y: auto;
+    font-size: 25px;
+    margin: 10px;
+    color: black;
+    line-height: 1.5;
+}
+.project_summary a {
+    color: rgb(166, 32, 255);
+    text-decoration: underline;
+}
+
+.project_summary a:hover {
+    color: rgb(95, 0, 158);
+}
+
+.project_img {
+    align-self: center;
+    width: 40vh;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 15px;
+    border: solid white 5px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+}
+
+.profile_img_container {
+    display: grid;
+    flex: 1;
+    height: 100%;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    grid-column-gap: 5%;
+    grid-row-gap: 10%;
+    margin: auto;
+}

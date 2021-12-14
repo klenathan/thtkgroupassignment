@@ -175,3 +175,46 @@ h2 {
     margin-bottom: 20px;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
 }
+
+.project_writer_info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    height: fit-content;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.3);
+}
+
+.profile_img_container {
+    display: grid;
+    flex: 1;
+    height: 100%;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    grid-column-gap: 5%;
+    grid-row-gap: 10%;
+    margin: auto;
+}
+
+.project_writer_info img {
+    margin: 10px;
+    margin-top: 40px;
+    align-self: center;
+    border-radius: 25%;
+    object-fit: cover;
+    width: 25vh;
+    height: 25vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+}
+
+#project_profile_text {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+}

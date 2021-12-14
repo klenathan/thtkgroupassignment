@@ -50,24 +50,49 @@
     grid-column-gap: 2%;
 }
 
+.it_work_img {
+    opacity: 0.2;
+    display: absolute; 
+    object-fit: cover; 
+    height: 100%; 
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
 .itwork-content {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 19%;
     justify-content: center;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     font-size: 40px;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s ease-in-out;
     font-family: sans-serif;
     box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.116);
-    
+}
+
+.itwork-content .job_label {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: 1;
+    position: absolute;
+    align-self: center;
+    transition: 0.3s ease-in-out;   
+    font-size: 30px
 }
 
 .itwork-content:hover {
-    position: relative;
-    top: -20px;
     box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.37);
+}
+
+.itwork-content:hover .it_work_img {
+    opacity: 1
+}
+
+.itwork-content:hover .job_label {
+    opacity: 0
 }
