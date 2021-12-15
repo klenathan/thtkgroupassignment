@@ -218,3 +218,9 @@ h2 {
     margin-left: 20px;
     text-align: center;
 }
+
+.project_section_header {
+    font-weight: 700; 
+    font-size: 30px; 
+    font-family: sans-serif;
+}
