@@ -187,3 +187,19 @@ h1 {
 .content_section img{
     margin-top: 20px;
 }
+
+.content_section h {
+    color: black
+}
+
+.content_section h2 {
+    margin: 0px;
+}
+
+.feedback_content h1{
+    font-size: 25px;
+    color: black
+}
+.feedback_content p {
+    text-indent: 30px;
+}
