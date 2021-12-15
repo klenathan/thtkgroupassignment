@@ -143,7 +143,7 @@ body {
     border-radius: 30px;
     /* background: rgb(0, 211, 159);
     background: linear-gradient(135deg, rgba(0, 211, 159,1) 0%, rgba(1, 170, 175,1) 100%);*/
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255);
     align-self: center;
     box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.3)
 }

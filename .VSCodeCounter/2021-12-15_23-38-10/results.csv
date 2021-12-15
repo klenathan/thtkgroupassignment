@@ -1,0 +1,27 @@
+"filename", "language", "CSS", "HTML", "Markdown", "YAML", "JavaScript", "comment", "blank", "total"
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\.github\workflows\codeql-analysis.yml", "YAML", 0, 0, 0, 31, 0, 29, 11, 71
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\CSS\it-technology.css", "CSS", 88, 0, 0, 0, 0, 3, 18, 109
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\CSS\it_work.css", "CSS", 81, 0, 0, 0, 0, 3, 14, 98
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\CSS\main.css", "CSS", 426, 0, 0, 0, 0, 11, 56, 493
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\CSS\profile.css", "CSS", 159, 0, 0, 0, 0, 6, 25, 190
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\README.md", "Markdown", 0, 0, 2, 0, 0, 0, 1, 3
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\SECURITY.md", "Markdown", 0, 0, 15, 0, 0, 0, 7, 22
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\Script\main.js", "JavaScript", 0, 0, 0, 0, 23, 0, 6, 29
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\index.html", "HTML", 0, 12, 0, 0, 0, 0, 1, 13
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\cybersecurity.html", "HTML", 0, 67, 0, 0, 0, 0, 19, 86
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\dataanalyst.html", "HTML", 0, 88, 0, 0, 0, 0, 20, 108
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\gamedeveloper.html", "HTML", 0, 90, 0, 0, 0, 0, 21, 111
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\generalitworker.html", "HTML", 0, 71, 0, 0, 0, 0, 12, 83
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\itwork\softwareengineer.html", "HTML", 0, 68, 0, 0, 0, 0, 15, 83
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\main.html", "HTML", 0, 260, 0, 0, 0, 0, 49, 309
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\profiles\buivietha.html", "HTML", 0, 96, 0, 0, 0, 0, 26, 122
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\profiles\nguyenvodangkhoa.html", "HTML", 0, 62, 0, 0, 0, 0, 16, 78
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\profiles\tangminhtri.html", "HTML", 0, 61, 0, 0, 0, 0, 12, 73
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\profiles\trannamthai.html", "HTML", 0, 98, 0, 0, 0, 0, 25, 123
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\projectidea.html", "HTML", 0, 120, 0, 0, 0, 0, 14, 134
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\ai.html", "HTML", 0, 43, 0, 0, 0, 3, 10, 56
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\autonomousvehicles.html", "HTML", 0, 72, 0, 0, 0, 0, 15, 87
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\cloudcomputing.html", "HTML", 0, 52, 0, 0, 0, 3, 8, 63
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\technologies.css", "CSS", 189, 0, 0, 0, 0, 4, 34, 227
+"f:\RMIT UNI\Sem 1\Intro to IT COSC2083_SEM3_SGS\Assignment 2\group12_web\technologies\vr.html", "HTML", 0, 52, 0, 0, 0, 3, 11, 66
+"Total", "-", 943, 1312, 17, 31, 23, 65, 446, 2837
