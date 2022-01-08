@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(135deg, rgba(0,255,150,1) 0%, rgba(0,0,111,1) 100%); bright mode*/
+    background: linear-gradient(90deg, rgba(29,78,175,1) 0%, rgba(72,16,143,1) 100%);
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: rgb(20, 3, 70);
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Kalam', cursive;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    flex: 3;
+    width: 100%;
+    align-items: center ;
+    margin-right: 30px
+}
+.menu img {
+    align-self: center;
+    border-radius: 80%;
+    object-fit: cover;
+    height: 4vh;
+    margin-right: 30px
+}
+
+ 
+.main_content {
+    display: flex; 
+    flex-direction: row;
+}
+.tab {
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+.left_tab {
+    flex: 1;
+    padding-top: 20px
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 40vh;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left
+}
+.features p {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.feature_select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.feature_select img {
+    object-fit: cover;
+    width: 4vh;
+}
+
+.feature_select:hover {
+    background-color:rgba(195, 0, 255, 0.301)
+}
+.scroll_content{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border-radius: 15px;
+    height: 95vh;
+    overflow-y: auto;
+    padding-top: 20px
+}
+
+.post {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.post_profile {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.poster_info {
+    margin-left: 20px;
+    padding-top: 10px
+}
+.poster_info p{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.poster_info p1{
+    font-size: 15px;
+}
+.post_profile img {
+    align-self: center;
+    border-radius: 80%;
+    object-fit: cover;
+    width: 8vh;
+    height: 8vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+.written_content {
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.project_img{
+    margin-top: 20px;
+    align-self: center;
+    object-fit: cover;
+    height: 40vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+.post_img{
+    display: flex;
+    width: 100%;
+    align-content: center;
+}
+.interact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px
+}
+.interation {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 30%;
+    align-content: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center
+}
+.interation p {
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.interation img {
+    height: 3vh
+}
+.interation:hover {
+    background-color:rgba(195, 0, 255, 0.301)
+}
+
+
+.suggestion {
+    flex: 1;
+    padding-top: 20px
+}
+
+.iot_devices {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px
+}
+.iot_devices h1 {
+    color: black
+}
+
+.devices {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    cursor: pointer;
+    justify-content: flex-start;
+    padding: 5px 10px 5px 0px;
+    border-radius: 15px;
+
+}
+.devices:hover {
+    background-color:rgba(195, 0, 255, 0.301);
+}
+.devices img {
+    height: 5vh;
+    margin-left: 20px;
+}
+.devices p {
+    font-weight: 600;
+    font-size: 20px;
+}
