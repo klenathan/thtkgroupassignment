@@ -113,7 +113,7 @@
 }
 
 .feature_select:hover {
-    background-color:rgba(195, 0, 255, 0.301)
+    background-color:rgba(0, 0, 0, 0.2)
 }
 .scroll_content{
     display: flex;
@@ -181,7 +181,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 10px
+    margin-top: 10px;
 }
 .interation {
     display: flex;
@@ -189,7 +189,7 @@
     text-align: center;
     width: 30%;
     align-content: center;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     cursor: pointer;
     justify-content: center
@@ -203,7 +203,8 @@
     height: 3vh
 }
 .interation:hover {
-    background-color:rgba(195, 0, 255, 0.301)
+    /* background-color:rgba(195, 0, 255, 0.301) */
+    background-color:rgba(0, 0, 0, 0.2)
 }
 
 
@@ -235,12 +236,12 @@
     width: 80%;
     cursor: pointer;
     justify-content: flex-start;
-    padding: 5px 10px 5px 0px;
+    padding: 10px 10px 10px 0px;
     border-radius: 15px;
 
 }
 .devices:hover {
-    background-color:rgba(195, 0, 255, 0.301);
+    background-color:rgba(0, 0, 0, 0.2);
 }
 .devices img {
     height: 5vh;

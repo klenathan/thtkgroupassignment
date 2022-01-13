@@ -117,16 +117,13 @@
 
 .essay {
   flex: 3;
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   font-size: 20px;
   line-height: 1.5;
   border-radius: 30px;
-  padding: 40px;
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
   font-family: sans-serif;
   color: rgb(31, 31, 31);
-
-  text-indent: 50px;
 }
 
 .essay2 {
@@ -250,4 +247,65 @@ h2 {
   font-weight: 700;
   font-size: 30px;
   font-family: sans-serif;
+}
+
+.toggle_p_button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(70, 0, 143);
+  width: 20%;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center
+}
+
+.toggle_d_button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(70, 0, 143);
+  width: 20%;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center
+}
+
+.hide {
+  display: none;
+}
+
+#overview_section {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  line-height: 1.5;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+  font-family: sans-serif;
+  color: rgb(31, 31, 31);
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#desc_section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  line-height: 1.5;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+  font-family: sans-serif;
+  color: rgb(31, 31, 31);
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.horizontal_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
