@@ -21,8 +21,25 @@
                 target.style.display = "none"
             } else {
                 target.style.display = "block"
+            }
         }
-  }
+
+        function toggleDisplayParagraph(docId, doc2, doc3) {
+            var target = document.getElementById(docId)
+            var target2 = document.getElementById(doc2)
+            var target3 = document.getElementById(doc3)
+
+            if (target.style.display == "none") {
+                target.style.display = "block"
+
+                target2.style.display = "none"
+                target3.style.display = "none"
+            } else if (target.style.display == "block") {
+                target.style.display = "none"
+            } else {
+                target.style.display = "block"
+            }
+        }
     </script>
 </head>
 <body class="mainbody">
@@ -59,13 +76,14 @@
                     
                     <p style="margin:0; padding: 0">(Press button to learn more)</p>
                     <div class = "horizontal_nav">
-                        <p class="toggle_p_button" onclick="toggleDisplay('topic_p')">Topic
+                        <p class="toggle_p_button" onclick="toggleDisplayParagraph('topic_p', 'motivation_p', 'landscape_p')">
+                            Topic
                         </p>
-                        <p class="toggle_p_button" onclick="toggleDisplay('motivation_p')">
+                        <p class="toggle_p_button" onclick="toggleDisplayParagraph('motivation_p', 'landscape_p', 'topic_p')">
                             Motivation
                         </p>
                         
-                        <p class="toggle_p_button" onclick="toggleDisplay('landscape_p')">
+                        <p class="toggle_p_button" onclick="toggleDisplayParagraph('landscape_p', 'motivation_p', 'topic_p')">
                             Landscape
                         </p>
                     </div>
